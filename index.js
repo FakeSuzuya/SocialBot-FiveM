@@ -91,8 +91,8 @@ myBot.on("message", async message => { if(message.author.bot) return;
       const arrow_up = message.guild.emojis.cache.find(emoji => emoji.name === config.reactionUp);
       const arrow_down = message.guild.emojis.cache.find(emoji => emoji.name === config.reactionDown);
 
-      m.react(arrow_up)
-      m.react(arrow_down)
+      m.react('🔼')
+      m.react('🔽')
     })
 });
 
@@ -107,7 +107,7 @@ myBot.on("message", async message => { if(message.author.bot) return;
 
     let embedinsta = new Discord.MessageEmbed()
 
-    .setColor('#00acee')
+    .setColor('#ff8000')
     .setAuthor('instagram', config.imginsta)
     .setDescription(args.join(" "))
     .setFooter(`Post created by ${message.author.username}`)
