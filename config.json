@@ -1,20 +1,22 @@
 {
-    "token": "",
-
-    "activity": "discord.gg/5dev",
-
+    "token": "XXXX",
+     //statut du bot
+    "activity": "Dev By Fakesuzuya and 5dev",
+    
+    //les images du bot
     "imgDarkChat": "https://cdn.iconscout.com/icon/free/png-256/list-message-2367725-1976875.png",
     "imgDarkChat2": "https://i.imgur.com/g8fmHWp.png",
-
     "imgTwitter": "https://help.twitter.com/content/dam/help-twitter/brand/logo.png",
     "imgLeBonCoin": "https://images.ladepeche.fr/api/v1/images/view/5c347c683e45461295307965/full/image.jpg",
+    "imginsta": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png",
 
-    "logsIdChannel": "1044928437485305926",
-
-    "channelTwitter": "1044927299402879048",
-    "channelDarkChat": "1044928409714839552",
-    "channelSuggestion": "1044928528585605161",
-    "channelLbc": "1044928387237552169",
+    //Les ID des channel
+    "logsIdChannel": "XXXX",
+    "channelTwitter": "XXXX",
+    "channelDarkChat": "XXXX",
+    "channelSuggestion": "XXXX",
+    "channelLbc": "XXXX",
+    "channelinsta": "XXXX",
 
     "reactionUp": "yes",
     "reactionDown": "no"
