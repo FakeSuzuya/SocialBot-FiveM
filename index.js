@@ -65,7 +65,7 @@ myBot.on("message", async message => { if(message.author.bot) return;
     .setFooter(`Post created by ${message.author.username}`)
 
     message.channel.send(embedTwitter).then(m => {
-      m.react('❤️')
+      m.react('👍')
       m.react('🔁')
     })
 });
@@ -96,6 +96,27 @@ myBot.on("message", async message => { if(message.author.bot) return;
     })
 });
 
+myBot.on("message", async message => { if(message.author.bot) return;  
+
+  if(message.channel.id !== config.channelinsta) return;
+
+    let messageArray = message.content.split(" ");
+    let args = messageArray.slice(0);
+
+    message.delete();
+
+    let embedinsta = new Discord.MessageEmbed()
+
+    .setColor('#00acee')
+    .setAuthor('instagram', config.imginsta)
+    .setDescription(args.join(" "))
+    .setFooter(`Post created by ${message.author.username}`)
+
+    message.channel.send(embedinsta).then(m => {
+      m.react('❤️')
+      m.react('📨')
+    })
+});
 
 
 myBot.on('ready', () => {
