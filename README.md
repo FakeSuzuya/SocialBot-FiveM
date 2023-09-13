@@ -16,4 +16,9 @@ ensuite npm i
 
 puis node index js
 
+
+preview:
+
+https://cdn.discordapp.com/attachments/1142952901568909342/1151593975006904320/IMG_0427.png
+
 Fake suzuya
